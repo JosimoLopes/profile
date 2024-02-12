@@ -1,0 +1,136 @@
+body {
+  background: #f6f3f3;
+  color: #654a4e;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+h1 {
+  font-family: space grotesk;
+  font-weight: 800;
+  font-size: 56px;
+  align-self: end;
+}
+
+h2 {
+  font-family: space grotesk;
+  font-weight: 500;
+  font-size: 24px;
+  color: #81666a;
+  grid-column: 2;
+  place-self: top;
+}
+
+h3 {
+  font-family: space grotesk;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 500;
+  font-family: space grotesk;
+  font-size: 16px;
+  color: #967c80;
+}
+
+a {
+  text-decoration: none;
+  color: #654a4e;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 1px rgba();
+  grid-row: 1 / 3;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+#intro {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  background: #fff;
+  border: 1px solid #f4f5f4;
+  padding: 40px;
+  margin: 20px auto;
+  width: 700px;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgb(23, 17, 19, 0.1);
+}
+
+.card-white {
+  background: #fff;
+  border: 1px solid #f4f5f4;
+  padding: 40px;
+  margin: 20px auto;
+  width: 700px;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgb(23, 17, 19, 0.1);
+}
+
+.le-wagon-link {
+  color: #81666a;
+  transition: 0.3s ease;
+}
+
+.le-wagon-link:hover {
+  color: #c2aeae;
+}
+
+.h1-icon {
+  font-size: 22px;
+}
+
+.inline-list {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline-list li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.inline-list i {
+  font-size: 30px;
+  transition: 0.3s ease;
+}
+
+.inline-list i:hover {
+  color: #c2aeae;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
